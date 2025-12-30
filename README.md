@@ -2,15 +2,19 @@
 
 # 🚀 Open Source Practice Lab
 
-**Learn Open Source by Actually Contributing — Not Just Reading About It**
+### Learn Open Source by Contributing — Not by Watching Tutorials
 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-blue.svg)
-![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+A **beginner-friendly open source repository** designed to help developers learn **real GitHub contribution workflows** by solving practical, well-structured tasks across multiple technologies.
 
-A hands-on, beginner-friendly repository where you practice **real open source workflows** by solving structured tasks across multiple technologies.
+⭐ If this repository helps you, please consider **starring it** so more learners can discover it.
 
-⭐ If this repo helps you, consider starring it so more learners can find it.
+![GitHub stars](https://img.shields.io/github/stars/Abhi-2516/Open-Source-Practice-Lab?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Abhi-2516/Open-Source-Practice-Lab?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/Abhi-2516/Open-Source-Practice-Lab?style=for-the-badge)
+![Good First Issues](https://img.shields.io/github/issues-search/Abhi-2516/Open-Source-Practice-Lab?query=label%3A%22good%20first%20issue%22\&style=for-the-badge)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)
+![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-blue?style=for-the-badge)
+![License](https://img.shields.io/github/license/Abhi-2516/Open-Source-Practice-Lab?style=for-the-badge)
 
 </div>
 
@@ -18,30 +22,43 @@ A hands-on, beginner-friendly repository where you practice **real open source w
 
 ## 📌 What Is This Repository?
 
-**Open Source Practice Lab** is designed for students and beginners who want to:
+**Open Source Practice Lab** is a beginner-friendly open source repository designed for students and early‑career developers who want to:
 
 * Learn **how open source actually works**
-* Practice GitHub workflows (Fork → Branch → Commit → PR → Review)
-* Improve programming skills through real tasks
-* Gain confidence before contributing to large production repositories
+* Practice real GitHub workflows (Fork → Branch → Commit → PR → Review)
+* Improve programming skills using hands-on tasks
+* Build confidence before contributing to large production repositories
 
-👉 You do **NOT** need permission or assignment to contribute.
-Just pick a task and start.
+👉 **No permission or assignment required.**
+If an issue is open, you can start working on it.
 
 ---
 
-## 🧠 Tech Stacks Covered (Initial Phase)
+## 👥 Who Is This For?
 
-Currently, tasks are available for:
+This repository is perfect for:
 
-* HTML
-* CSS
-* JavaScript
-* React
-* Python
-* C++ (DSA)
+* Beginners making their **first open source contribution**
+* Students looking for **real GitHub experience**
+* Developers who feel nervous contributing to large repositories
+* Anyone practicing **Git, GitHub, and collaboration workflows**
 
-Each tech stack is divided into:
+No prior open source experience is required.
+
+---
+
+## 🧠 Technologies & Languages Covered
+
+The repository currently includes open source practice tasks for:
+
+* **HTML** – structure and semantic markup
+* **CSS** – layouts, responsiveness, and styling
+* **JavaScript** – logic, arrays, functions, and utilities
+* **React** – components, hooks, and state management
+* **Python** – logic building, file handling, and CLI basics
+* **C++** – data structures and problem solving (DSA)
+
+Each technology is organized by difficulty level:
 
 * `easy`
 * `medium`
@@ -63,7 +80,7 @@ tasks/
 └── cpp/
 ```
 
-Each folder contains:
+Each technology folder contains:
 
 ```
 easy/
@@ -71,9 +88,9 @@ medium/
 hard/
 ```
 
-Each task is represented by a single file with:
+Each task file includes:
 
-* Clear problem statement
+* A clear problem statement
 * TODO instructions
 * Sample input/output (where applicable)
 
@@ -96,13 +113,13 @@ That’s it — welcome to open source.
 
 ### 1️⃣ Fork the Repository
 
-Click the **Fork** button on the top-right of this page.
+Click the **Fork** button at the top‑right of this page.
 
 ### 2️⃣ Clone Your Fork
 
 ```bash
-git clone https://github.com/Abhi-2516/Open-Source-Practice-Lab
-cd open-source-practice
+git clone https://github.com/<your-username>/Open-Source-Practice-Lab.git
+cd Open-Source-Practice-Lab
 ```
 
 ### 3️⃣ Create a New Branch
@@ -123,7 +140,7 @@ git checkout -b solve-task-name
 4. Open any task file
 5. Read the instructions inside the file
 
-💡 Tasks are also tracked as GitHub Issues for easier discovery.
+💡 Tasks are also tracked as **GitHub Issues** for easier discovery.
 
 ---
 
@@ -180,7 +197,7 @@ By contributing here, you will practice:
 * Collaborating through PR reviews
 * Open source etiquette
 
-These are **real industry skills**.
+These are **real industry‑relevant skills**.
 
 ---
 
@@ -191,21 +208,19 @@ Want to help others learn?
 You’re welcome to:
 
 * Add new tasks
-* Propose new tech stacks
+* Propose new technologies
 * Improve task descriptions
 
-Please open a PR with clear details about the task and difficulty.
+Please open a Pull Request with clear details about the task and difficulty.
 
 ---
-
 
 ## 👤 Maintainer
 
 **Abhishek Yadav**
+📧 Contact: [2516abhi43@gmail.com](mailto:2516abhi43@gmail.com)
 
-Contact: 2516abhi43@gmail.com
-
-If you’re a beginner and feel nervous — this repo is built *for you*.
+If you’re a beginner and feel nervous — this repository is built **for you**.
 Start small. Learn by doing.
 
 ---
