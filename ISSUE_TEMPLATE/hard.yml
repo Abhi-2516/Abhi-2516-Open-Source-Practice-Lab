@@ -1,0 +1,24 @@
+name: Hard Task 🔴
+description: Advanced or challenging issue
+title: "[Hard]: "
+labels: ["hard"]
+body:
+  - type: textarea
+    attributes:
+      label: Task Description
+      description: Describe the problem, constraints, and expectations.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: File Path
+      placeholder: tasks/react/hard/your-file-name
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        🔥 Advanced task  
+        🔥 Make sure to explain your approach in the PR

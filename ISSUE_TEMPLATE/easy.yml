@@ -1,0 +1,26 @@
+name: Easy Task 🟢
+description: Beginner-friendly issue (good first issue)
+title: "[Easy]: "
+labels: ["easy", "good first issue", "beginner-friendly"]
+body:
+  - type: textarea
+    attributes:
+      label: Task Description
+      description: Clearly explain what needs to be done.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: File Path
+      description: Path of the file to work on
+      placeholder: tasks/html/easy/your-file-name
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ✅ No assignment required  
+        ✅ If the issue is open, you can start working  
+        ✅ First valid PR will be merged

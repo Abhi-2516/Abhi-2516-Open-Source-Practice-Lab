@@ -1,0 +1,24 @@
+name: Medium Task 🟡
+description: Intermediate-level issue
+title: "[Medium]: "
+labels: ["medium"]
+body:
+  - type: textarea
+    attributes:
+      label: Task Description
+      description: Explain the task clearly with expectations.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: File Path
+      placeholder: tasks/javascript/medium/your-file-name
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ Please solve only this task in one PR  
+        ⚠️ Keep changes scoped and clean
