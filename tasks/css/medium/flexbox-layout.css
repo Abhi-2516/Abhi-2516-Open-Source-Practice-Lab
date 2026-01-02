@@ -1,15 +1,14 @@
-/*
-TASK: Flexbox Layout
-
-Requirements:
-- Create a responsive layout using Flexbox
-- Items should wrap on smaller screens
-*/
-
 .container {
-  /* TODO: Flexbox layout */
+  display: flex;          /* Enable flexbox */
+  flex-wrap: wrap;        /* Allow items to wrap on smaller screens */
+  gap: 16px;              /* Space between items */
+  justify-content: center;/* Center items horizontally */
 }
 
 .item {
-  /* Example items */
+  flex: 1 1 200px;        /* Grow, shrink, base width */
+  padding: 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+  border-radius: 8px;
 }
