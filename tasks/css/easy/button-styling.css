@@ -12,30 +12,17 @@ You can imagine this button is used in a website.
 */
 
 button {
-  /* TODO: Add styles here */
-  background-color: #d65656;
-  /* light red background */
-  color: white;
-  /* White text */
-  padding: 15px 32px;
-  /* Padding */
-  text-align: center;
-  /* Centered text */
-  text-decoration: none;
-  /* No underline */
-  display: inline-block;
-  /* Inline-block */
-  font-size: 16px;
-  /* Font size */
-  border: none;
-  /* No border */
-  border-radius: 12px;
-  /* Rounded corners */
-  cursor: pointer;
-  /* Pointer cursor on hover */
+  background-color: #0ea5e9;      /* blue background */
+  color: #ffffff;                /* white text */
+  padding: 12px 24px;             /* padding */
+  border: none;                   /* remove border */
+  border-radius: 6px;             /* rounded corners */
+  cursor: pointer;                /* pointer on hover */
+  font-weight: 600;               /* slightly bold text */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
-  background-color: #dc1e14;
-  /* Darker red on hover */
+  background-color: #0284c7;      /* darker blue on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
