@@ -7,9 +7,16 @@ Requirements:
 */
 
 .container {
-  /* TODO: Center content */
+  display: flex;                /* enable flexbox */
+  justify-content: center;      /* center horizontally */
+  align-items: center;          /* center vertically */
+  height: 100vh;                /* full viewport height */
 }
 
 .box {
-  /* Example box */
+  width: 150px;
+  height: 150px;
+  background-color: #4f46e5;   /* visible box */
+  border-radius: 8px;
 }
+
