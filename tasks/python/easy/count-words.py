@@ -10,9 +10,13 @@ Output:
 
 # TODO: Write your solution here
 
-sentence = "open source is awesome"
+def count_words(sentence: str) -> int:
+    # Remove leading/trailing spaces and split by any amount of whitespace
+    words = sentence.strip().split()
+    return len(words)
 
-# Split the sentence into words and count them
-word_count = len(sentence.split())
 
-print(word_count)
+sentence = input("Enter a sentence: ")
+
+print(count_words(sentence))
+
