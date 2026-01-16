@@ -13,7 +13,23 @@ Output:
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     // TODO: Write your logic here
+    int n;
+    cin >> n;
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        int temp;
+        cin >> temp;
+        arr[i] = temp;
+    }
+    int max_elem = INT_MIN;
+    for (int i = 0; i < n; i++)
+    {
+        max_elem = max(max_elem, arr[i]);
+    }
+    cout << max_elem << endl;
     return 0;
 }
