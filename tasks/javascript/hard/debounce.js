@@ -1,18 +1,12 @@
-/*
-TASK: Debounce Function
-
-Implement a debounce function.
-
-Requirements:
-- Accept a function and delay
-- Call function only after delay
-
-Usage:
-const debouncedFn = debounce(fn, 300);
-*/
-
 function debounce(fn, delay) {
-  // TODO: Implement debounce
+  let timeoutId;
+  
+  return function(...args) {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      fn(...args);
+    }, delay);
+  };
 }
 
 export default debounce;
