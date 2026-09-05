@@ -1,16 +1,38 @@
+#!/usr/bin/env python3
 """
-TASK: Reverse a String
-
-Input:
-"hello"
-
-Output:
-"olleh"
+Module: reverse-string.py
+Description: Takes a string input and returns the reversed version.
 """
 
-# TODO: Write your solution here
-def reverse_string(s):
-    return s[::-1]
+def reverse_string(text: str) -> str:
+    """
+    Reverses the given string using Python's slicing feature.
+    
+    Args:
+        text (str): The input string to be reversed.
+        
+    Returns:
+        str: The reversed string.
+        
+    Example:
+        >>> reverse_string("hello")
+        "olleh"
+    """
+    return text[::-1]
 
-s=input()
-print(reverse_string(s))
+def main():
+    """
+    Main function to handle user input and display the reversed string.
+    """
+    user_input = input("Enter a string to reverse: ")
+    
+    if not user_input:
+        print("Error: Please enter a non-empty string.")
+        return
+    
+    reversed_text = reverse_string(user_input)
+    print(f"Original: {user_input}")
+    print(f"Reversed: {reversed_text}")
+
+if __name__ == "__main__":
+    main()
